@@ -44,4 +44,17 @@
     .footer-contacts > div:nth-child(2) {
         gap: 60px;
     }
+
+    .navbar-slider {
+        width: 100%; 
+        left: 0;
+        top: 0;
+        translate: 0 0;
+    }
+
+    .navbar-slider-main {
+        width: 100%;
+        height: 100vh;
+        padding-top: 80px;
+    }
 }
