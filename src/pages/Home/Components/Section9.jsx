@@ -3,7 +3,7 @@ import '../style.mobile.css'
 
 export function Section9 () {
     return (
-        <div className='section-1'>
+        <div className='section-1' id='legacy'>
             <div> Kid Rock’s Legacy </div>
 
             <div>

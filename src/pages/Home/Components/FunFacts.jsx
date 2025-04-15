@@ -31,7 +31,7 @@ function Nascar () {
 
 function FunFactCard ({ icon, hdr, cnt }) {
     return (
-        <div className='fun-facts-card'>
+        <div className='fun-facts-card' id='fun-facts'>
             <div className='fun-facts-card-cnt'>
                 <div className='fun-facts-card-front'>
                     <div>{icon}</div>

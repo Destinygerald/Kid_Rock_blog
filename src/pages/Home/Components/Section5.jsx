@@ -3,7 +3,7 @@ import '../style.mobile.css'
 
 export function Section5 () {
     return (
-        <div className='section-1'>
+        <div className='section-1' id='shows'>
             <div>Live Shows: A Rock and Roll Experience</div>
 
             <div>

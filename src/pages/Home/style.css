@@ -66,6 +66,13 @@
     height: 220px;
     background-color: grey;
     border-radius: 8px;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
 }
 
 .section-1, .section-3 , .section-10{

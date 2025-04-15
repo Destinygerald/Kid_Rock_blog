@@ -4,7 +4,7 @@ import { RiAlbumFill } from 'react-icons/ri'
 
 export function Section3 () {
     return (
-        <div className='section-3'>
+        <div className='section-3' id='albums'>
             <div>The Rise: Albums That Shaped a Generation</div>
 
             <div className='section-3-cnt'>

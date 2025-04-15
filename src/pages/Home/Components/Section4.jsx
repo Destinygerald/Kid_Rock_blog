@@ -3,7 +3,7 @@ import '../style.mobile.css'
 
 export function Section4 () {
     return (
-        <div className='section-1'>
+        <div className='section-1' id='cultural-impact'>
             <div>Cultural Impact: More Than Just Music</div>
 
             <div>
