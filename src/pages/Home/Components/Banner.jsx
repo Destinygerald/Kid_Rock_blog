@@ -3,6 +3,11 @@ import '../style.mobile.css'
 import { IoMusicalNotes } from 'react-icons/io5'
 
 export function Banner () {
+
+    function explore () {
+        window.location.href = `#early-life`
+    }
+
     return (
         <div className='homepage-banner'>
             <div>
@@ -15,7 +20,7 @@ export function Banner () {
                 With a career spanning over three decades, Kid Rock has become one of music’s boldest and most unpredictable icons. Mixing rock, hip-hop, country, and blues, he’s built a sound—and a legacy—that’s entirely his own.
             </div>
 
-            <button>Explore</button>
+            <button onClick={explore}>Explore</button>
         </div>
     )
 }
