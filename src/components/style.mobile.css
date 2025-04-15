@@ -50,6 +50,7 @@
         left: 0;
         top: 0;
         translate: 0 0;
+        min-width: none;
     }
 
     .navbar-slider-main {
