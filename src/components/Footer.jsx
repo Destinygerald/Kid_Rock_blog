@@ -9,9 +9,27 @@ import { useState } from 'react'
 export function Footer () {
 
     const [ email, setEmail ] = useState('')
+    const [ msg, setMsg ] = useState('')
     
     function submit () {
 
+        if (!email) return;
+
+        setTimeout(() => {
+            setEmail('')
+
+            setMsg('Successfully Suscribed')
+
+            setTimeout(() => {
+                setMsg('')
+            }, 1200)
+        }, 1200)
+        
+    }
+
+    
+    function socials (link) {
+        window.location.href = link
     }
 
     return (
@@ -52,10 +70,10 @@ export function Footer () {
                 <div className='footer-contacts'>
                     <div>Follow for the latest updates.</div>
                     <div>
-                        <span> <FaFacebook /> </span>
-                        <span> <RiInstagramFill /> </span>
-                        <span> <RiTwitterXFill /> </span>
-                        <span> <FaYoutube />  </span>
+                        <span onClick={() => socials('http://facebook.com/kidrock')}> <FaFacebook /> </span>
+                        <span onClick={() => socials('http://instagram.com/kidrock')}> <RiInstagramFill /> </span>
+                        <span onClick={() => socials('http://twitter.com/kidrock')}> <RiTwitterXFill /> </span>
+                        <span onClick={() => socials('http://youtube.com/c/kidrock')}> <FaYoutube />  </span>
                     </div>
                 </div>
             
@@ -64,6 +82,16 @@ export function Footer () {
             <div className='footer-copyrights'>
                 CopyRight © 2025. All rights reserved.
             </div>
+
+            {
+                msg
+                ?
+                <div className='footer-msg'>
+                    {msg}
+                </div>
+                :
+                <></>
+            }
         </div>
     )
 }

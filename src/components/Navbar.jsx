@@ -86,7 +86,7 @@ export function Navbar () {
     const { hash } = useLocation()
 
     function contact () {
-        window.location.href = '#contact'
+        window.location.href = 'mailto:artistmanagementinquiries@gmail.com'
     }
 
 
