@@ -1,0 +1,64 @@
+@media (max-width: 600px) {
+
+    .homepage {
+        --text-font: .8rem;
+    }
+
+    .homepage-banner > div:first-child {
+        width: 80%;
+        font-size: 2.2rem;
+    }
+
+    .homepage-banner > div:nth-child(2) {
+        width: 84%;
+        line-height: 1.48rem;
+    }
+
+    .homepage-banner > button {
+        padding: 14px 62px;
+        margin-top: 12px;
+    }
+
+    .gallery {
+        width: 100%;
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery > div {
+        height: 200px;
+    }
+
+    .section-1 > div:first-child {
+        font-size: 1.32rem;
+        font-weight: 600;
+    }
+
+    .section-3 > div:first-child {
+        font-size: 1.32rem;
+        font-weight: 600;
+    }
+
+    .fun-facts {
+        gap: 12px;
+    }
+
+    .fun-facts > div {
+        width: 100%;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .fun-facts-card, .fun-facts-card-v2 {
+        width: 46%;
+    }
+
+    .fun-facts-card-front-v2 > div:first-child > span {
+        font-size: 1rem;
+    }
+
+    .fun-facts-card-front > div:first-child {
+        font-size: 1.6rem;
+    }
+}
