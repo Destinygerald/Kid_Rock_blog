@@ -21,6 +21,10 @@ export function Banner () {
             </div>
 
             <button onClick={explore}>Explore</button>
+
+            <div className='banner-bck-img'>
+                <img src='/images/kid_rock.webp' />
+            </div>
         </div>
     )
 }

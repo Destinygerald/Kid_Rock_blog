@@ -4,9 +4,21 @@
         --text-font: .8rem;
     }
 
+    .homepage-banner {
+        height: 88vh;
+    }
+
     .homepage-banner > div:first-child {
         width: 80%;
         font-size: 2.2rem;
+    }
+    
+    .banner-bck-img {
+        height: 88vh;
+    }
+
+    .banner-bck-img > img {
+        height: 100%;
     }
 
     .homepage-banner > div:nth-child(2) {
@@ -60,5 +72,15 @@
 
     .fun-facts-card-front > div:first-child {
         font-size: 1.6rem;
+    }
+
+    .contact {
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 12px;
+    }
+
+    .contact button {
+        width: 100%;
     }
 }
