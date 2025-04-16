@@ -10,6 +10,11 @@ export function Banner () {
 
     return (
         <div className='homepage-banner'>
+            
+            <div className='banner-bck-img'>
+                <img src='/images/kid_rock.webp' />
+            </div>
+
             <div>
                 Welcome to the Official Kid Rock <span className='music-icon'> <IoMusicalNotes /> </span> Website.
             </div>
@@ -21,10 +26,6 @@ export function Banner () {
             </div>
 
             <button onClick={explore}>Explore</button>
-
-            <div className='banner-bck-img'>
-                <img src='/images/kid_rock.webp' />
-            </div>
         </div>
     )
 }
