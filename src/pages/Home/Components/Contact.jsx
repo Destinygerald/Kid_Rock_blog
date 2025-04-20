@@ -4,7 +4,8 @@ import '../style.mobile.css'
 export function Contact () {
 
     function contact () {
-        window.location.href = 'mailto:artistmanagementinquiries@gmail.com'
+        window.open("mailto:artistmanagementinquiries@gmail.com")
+        // window.location.href = 'mailto:artistmanagementinquiries@gmail.com'
     }
 
     return (
